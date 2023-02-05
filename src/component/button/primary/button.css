@@ -1,0 +1,31 @@
+.button {
+    display: flex;
+}
+.btn-style {
+    height: 60px;
+    background: #0076A7;
+    border-radius: 8px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    outline: none;
+    width: 400px;
+    text-align: center;
+    cursor: pointer;
+    color: #FFFFFF
+}
+
+.btn-style:hover {
+    background: #086A93 ;
+}
+
+.btn-style:active {
+    background: #368FB4;
+}
+
+.btn-style:disabled {
+    background: #CBE4EE;
+}

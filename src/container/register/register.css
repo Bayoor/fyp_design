@@ -1,0 +1,289 @@
+.reg_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    width: 520px;
+    height: 699px;
+    margin: 6rem auto 4rem auto;
+    padding-top: 4rem;
+}
+
+.reg-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.reg-title {
+    color: var(--color-heading);
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+
+
+.arrow_icon {
+    position: absolute;
+    left: -70px;
+    top: 40px;
+    /* border: 2px solid rgb(255, 102, 0) ; */
+
+}
+
+.reg-content>p {
+    text-align: center;
+    margin-top: .5rem;
+}
+
+.reg-content>p>span {
+    color: #8E8E8E;
+}
+
+.reg-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px blue solid; */
+    width: 320px;
+    align-self: center;
+    margin-top: 1rem;
+}
+
+/* .form {
+    padding-top: 2rem;
+} */
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-content>input {
+    border: 1px solid var(--color-heading);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    padding: 1.2rem 1rem;
+    width: 400px;
+
+}
+
+.form-content>img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 376px;
+    color: var(--color-heading);
+
+
+
+}
+
+.form-content>input::placeholder {
+
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* padding-left: 1rem; */
+    color: var(--color-heading)
+}
+
+
+.form-content>p {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+
+}
+
+.form-content>p>span {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-heading);
+}
+
+.profile-icon {
+    top: 47px;
+}
+
+.email-icon {
+    top: 117px;
+}
+
+.password-icon {
+    top: 188px;
+}
+
+
+
+
+
+
+/* .reg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 630px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin: 9rem auto 8rem auto;
+}
+
+.reg-content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.reg-title {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+}
+
+.reg-title h2 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    text-align: center;
+    
+    margin-bottom: .5rem;
+    color: #0076A7;
+
+}
+
+.reg-title > img {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: -25px;
+   
+    border: 2px solid red;
+}
+
+.reg-title p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: .5rem;
+    text-align: center;
+    color: #8E8E8E;
+}
+
+.reg-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px blue solid; */
+/* width: 320px;
+    align-self: center;
+} */
+
+/* .form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.form>input {
+    border: 1px solid #B2B2B2;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    padding: 1.2rem 0rem;
+    width: 400px;
+
+}
+
+.form>img {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 356px;
+
+
+}
+
+.profile-icon {
+    top: 17px;
+}
+
+.email-icon {
+    top: 87px;
+}
+
+.password-icon {
+    top: 158px;
+}
+
+.form>input::placeholder {
+
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: .5rem;
+    color: #B2B2B2;
+
+}
+
+.form>p {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.button_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+span {
+    color: #0076A7;
+}
+
+.button_footer>span {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #626262;
+    margin: 0 -1rem;
+
+} */
