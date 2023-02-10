@@ -9,7 +9,6 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    /* border: 2px yellow solid; */
     min-width: 460px;
     padding-right:  3rem;
     margin-top: .5rem;
@@ -29,3 +28,32 @@
 .span {
     margin-right: -3rem;
 }
+
+@media screen and (max-width:480px){
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        padding-right:  2rem;
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+        
+    }
+
+    .footer-content>p>span {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 22px;
+        color: #626262;
+    
+    } 
+
+    .span {
+        margin-right: -1rem;
+    }
+
+   
+}
+

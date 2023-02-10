@@ -1,16 +1,15 @@
 .btn_sign_in {
     height: 60px;
     margin-top: 1rem;
-    border: 2px solid #0076A7;
+    border: 2px solid var(--color-heading);
     border-radius: 8px;
-    font-family: 'Lato';
-    font-style: normal;
+    font-family: var(--font-family);
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
     width: 400px;
-    color: #0076A7;
+    color: var(--color-heading);
     padding: .5rem 0;
     cursor: pointer;
 }
@@ -25,4 +24,19 @@
 
 .btn_sign_in:disabled {
     border: 1.5px solid #92AEB9;
+}
+
+@media screen and (max-width:480px) {
+    .btn_sign_in {
+        height: 50px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 22px;
+        border: 2px solid var(--color-heading);
+        outline: none;
+        width: 300px;
+        text-align: center;
+        cursor: pointer;
+        color: var(--color-heading);
+    }
 }

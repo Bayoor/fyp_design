@@ -64,6 +64,7 @@ span {
     color: var(--color-heading);
 }
 
+
 /* .form {
     padding-top: 2rem;
 } */
@@ -84,8 +85,8 @@ span {
     height: 24px;
     position: absolute;
     right: 60px;
-    
-} 
+
+}
 
 .profile-icon {
     top: 47px;

@@ -136,9 +136,12 @@ const Register = () => {
         <Button text="Next" />
         </Link>
         <br />
+        <div className="para">
         <p>
           Already have an account <Link to="/sign_in"><span>Sign In</span></Link>
         </p>
+
+        </div>
         <Footer />
       </form>
 

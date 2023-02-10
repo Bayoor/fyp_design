@@ -11,7 +11,7 @@ import Wrapper from "./container/wrapper/Wrapper";
 import ColorSelection from "./container/color_selection/ColorSelection";
 import SelectPage from "./container/selection_page/SelectPage";
 import Success from "./container/success/Success";
-import SignIn from "./container/sign_in/sign_in/Sign in";
+import SignIn from "./container/sign_in/Sign in";
 
 const App = () => {
   return (
