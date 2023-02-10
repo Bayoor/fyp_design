@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className="app__navbar-logo">
         <img src={Ellipse} alt="" />
         <Link to="/">
-          <p className="app__navbar-text">HomeTech</p>
+          <h3 className="app__navbar-heading">HomeTech</h3>
         </Link>
       </div>
       <ul className="app__navbar-link">

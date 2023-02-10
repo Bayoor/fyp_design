@@ -10,6 +10,8 @@ import Verify from "./container/verify/Verify";
 import Wrapper from "./container/wrapper/Wrapper";
 import ColorSelection from "./container/color_selection/ColorSelection";
 import SelectPage from "./container/selection_page/SelectPage";
+import Success from "./container/success/Success";
+import SignIn from "./container/sign_in/sign_in/Sign in";
 
 const App = () => {
   return (
@@ -23,6 +25,8 @@ const App = () => {
         <Route exact path="/wrapper" element={<Wrapper />} />
         <Route exact path="/color_selection" element={<ColorSelection />} />
         <Route exact path="/selection-page" element={<SelectPage />} />
+        <Route exact path="/success" element={<Success />} />
+        <Route exact path="/sign_in" element={<SignIn />} />
       </Routes>
     </Router>
   );

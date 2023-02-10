@@ -34,8 +34,8 @@
 
 .arrow_icon {
     position: absolute;
-    left: -70px;
-    top: 40px;
+    left: -90px;
+    top: 50px;
     /* border: 2px solid rgb(255, 102, 0) ; */
 
 }
@@ -60,6 +60,10 @@
     margin-top: 1rem;
 }
 
+span {
+    color: var(--color-heading);
+}
+
 /* .form {
     padding-top: 2rem;
 } */
@@ -72,20 +76,6 @@
     position: relative;
 }
 
-.form-content {
-    display: flex;
-    flex-direction: column;
-}
-
-.form-content>input {
-    border: 1px solid var(--color-heading);
-    border-radius: 8px;
-    margin-bottom: 1rem;
-    padding: 1.2rem 1rem;
-    width: 400px;
-
-}
-
 .form-content>img {
     display: flex;
     justify-content: center;
@@ -93,42 +83,9 @@
     width: 24px;
     height: 24px;
     position: absolute;
-    left: 376px;
-    color: var(--color-heading);
-
-
-
-}
-
-.form-content>input::placeholder {
-
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    /* padding-left: 1rem; */
-    color: var(--color-heading)
-}
-
-
-.form-content>p {
-    margin-bottom: 2rem;
-    margin-top: 1rem;
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #000000;
-
-}
-
-.form-content>p>span {
-    font-family: var(--font-family);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    color: var(--color-heading);
-}
+    right: 60px;
+    
+} 
 
 .profile-icon {
     top: 47px;
@@ -141,7 +98,6 @@
 .password-icon {
     top: 188px;
 }
-
 
 
 

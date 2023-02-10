@@ -13,12 +13,13 @@ const Verify = () => {
         <div className="verify-content">
           <h2 className="verify-title">Verify Your Email</h2>
           {/* <Link to="/register"><img src={arrowIcon} alt="" /><Link> */}
-          <Link to="/register" className="arrow_icon">
-          <img src={arrowIcon} alt="" />
+          <Link to="/register" className="arrow_icon1">
+            <img src={arrowIcon} alt="" />
           </Link>
           <p>
-            <span>Enter the code sent to</span> salihuahmedrufai@gmail.com<br/><span>to verify your
-            email address</span> 
+            <span>Enter the code sent to</span> salihuahmedrufai@gmail.com
+            <br />
+            <span>to verify your email address</span>
           </p>
         </div>
         <form action="" method="post" className="form">
@@ -26,7 +27,9 @@ const Verify = () => {
           <p>
             Did't the get code? <span>Resend code</span>
           </p>
-          <Button text="Verify" />
+          <Link to="/color_selection">
+            <Button text="Verify" />
+          </Link>
         </form>
 
         <Footer />

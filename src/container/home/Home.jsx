@@ -16,8 +16,12 @@ const Header = () => {
             <br /> shoulder surfing attacks
           </p>
         </div>
-        <Button text="Register" />
-        <SecButton text="sign In" />
+        <Link to="/register">
+          <Button text="Register" />
+        </Link>
+        <Link to="/sign_in">
+          <SecButton text="Sign In" />
+        </Link>
         <Footer />
       </div>
     </div>
