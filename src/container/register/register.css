@@ -36,7 +36,6 @@
     position: absolute;
     left: -90px;
     top: 50px;
-    /* border: 2px solid rgb(255, 102, 0) ; */
 
 }
 
@@ -64,10 +63,6 @@ span {
     color: var(--color-heading);
 }
 
-
-/* .form {
-    padding-top: 2rem;
-} */
 
 .form {
     display: flex;
@@ -104,143 +99,3 @@ span {
 
 
 
-/* .reg {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 500px;
-    height: 630px;
-    background: #FFFFFF;
-    border-radius: 8px;
-    margin: 9rem auto 8rem auto;
-}
-
-.reg-content {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-
-}
-
-.reg-title {
-    display: flex;
-    flex-direction: column;
-    padding: 2rem 0;
-}
-
-.reg-title h2 {
-    font-family: var(--font-family);
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 22px;
-    text-align: center;
-    
-    margin-bottom: .5rem;
-    color: #0076A7;
-
-}
-
-.reg-title > img {
-    width: 24px;
-    height: 24px;
-    position: absolute;
-    left: -25px;
-   
-    border: 2px solid red;
-}
-
-.reg-title p {
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    margin-bottom: .5rem;
-    text-align: center;
-    color: #8E8E8E;
-}
-
-.reg-img {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    /* border: 2px blue solid; */
-/* width: 320px;
-    align-self: center;
-} */
-
-/* .form {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-}
-
-.form>input {
-    border: 1px solid #B2B2B2;
-    border-radius: 8px;
-    margin-bottom: 1rem;
-    padding: 1.2rem 0rem;
-    width: 400px;
-
-}
-
-.form>img {
-    width: 24px;
-    height: 24px;
-    position: absolute;
-    left: 356px;
-
-
-}
-
-.profile-icon {
-    top: 17px;
-}
-
-.email-icon {
-    top: 87px;
-}
-
-.password-icon {
-    top: 158px;
-}
-
-.form>input::placeholder {
-
-    font-family: 'Lato';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    padding-left: .5rem;
-    color: #B2B2B2;
-
-}
-
-.form>p {
-    margin-top: 1rem;
-    text-align: center;
-}
-
-.button_footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 4rem;
-}
-
-span {
-    color: #0076A7;
-}
-
-.button_footer>span {
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    color: #626262;
-    margin: 0 -1rem;
-
-} */

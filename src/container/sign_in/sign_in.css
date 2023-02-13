@@ -11,6 +11,7 @@
     margin: 6rem auto 4rem auto;
     padding-top: 4rem;
 }
+
 .sign_in-img {
     display: flex;
     flex-direction: row;
@@ -22,7 +23,22 @@
     margin-top: 1rem;
 }
 
-input::placeholder{
+.sign_in-content {
+    position: absolute;
+    right: 60px;
+}
+
+.email_icon {
+    top: 50px;
+    
+}
+
+.password_icon {
+    top: 120px;
+   
+}
+
+input::placeholder {
     color: #B2B2B2;
 }
 

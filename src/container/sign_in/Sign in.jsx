@@ -14,6 +14,10 @@ import { Link } from "react-router-dom";
 import FormInput from "../../component/formInputs/FormInput";
 
 const SignIn = () => {
+
+  
+
+
   return (
     <div className="sign_in-page">
       <div className="reg-content">
@@ -31,14 +35,14 @@ const SignIn = () => {
         <img src={progressBar_3} alt="" />
       </div>
       <form action="#" method="post" className="form" >
-          <FormInput  placeholder="Email address"/>
+          <FormInput  placeholder="Email address" />
           <FormInput placeholder="Password"/>
       
-        <div className="form-content">
+        <div className="sign_in-content  email_icon">
           <img src={smsLogo} alt="email" className="email-icon" />
         </div>
 
-        <div className="form-content">
+        <div className="sign_in-content password_icon">
           <img src={eyeSlashLogo} alt="password" className="password-icon" />
         </div>
         <div className="parah">
