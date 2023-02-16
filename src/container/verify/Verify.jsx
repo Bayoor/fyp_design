@@ -5,34 +5,39 @@ import arrowIcon from "../../assets/icons/arrow-left.svg";
 
 import "./verify.css";
 import { Link } from "react-router-dom";
+// import FormInput from "../../component/formInputs/FormInput";
 
 const Verify = () => {
   return (
     <>
-      <div className="verify">
+      <div className="verify section-margin">
         <div className="verify-content">
           <h2 className="verify-title">Verify Your Email</h2>
-          {/* <Link to="/register"><img src={arrowIcon} alt="" /><Link> */}
-          <Link to="/register" className="arrow_icon1">
+          <Link to="/register" className="verify_arrow-icon">
             <img src={arrowIcon} alt="" />
           </Link>
-          <p>
-            <span>Enter the code sent to</span> salihuahmedrufai@gmail.com
-            <br />
-            <span>to verify your email address</span>
-          </p>
         </div>
+        <p className="verify-para">
+          Enter the code sent to <span> salihuahmedrufai@gmail.com</span>
+          <br />
+          to verify your email address
+        </p>
         <form action="" method="post" className="form">
           <input type="text" placeholder="Enter OTP code" />
-          <p>
+          <p className="para-text">
             Did't the get code? <span>Resend code</span>
           </p>
           <Link to="/color_selection">
-            <Button text="Verify" />
+            <Button
+              disabled
+              text="Verify"
+              className="btn-style 
+            btn"
+            />
           </Link>
         </form>
 
-        <Footer />
+        <Footer className="footer verify-footer" />
       </div>
     </>
   );

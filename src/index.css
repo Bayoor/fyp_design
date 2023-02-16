@@ -2,7 +2,10 @@
 
 :root {
   --font-family: 'Lato', sans-serif;
-  --color-heading: #0076A7;
+  --text-color: #0076A7;
+  --subtext-color: #8E8E8E; 
+  --background-color: #fff;
+  font-size: 62.5%;
 }
 
 * {
@@ -16,6 +19,15 @@ a {
   color: unset;
   text-decoration: none;
 }
+
+
+
+.section-margin {
+  margin: 8rem auto;
+}
+
+
+
 
 
 

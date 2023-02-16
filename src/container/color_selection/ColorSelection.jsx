@@ -13,14 +13,14 @@ import { Link } from "react-router-dom";
 const ColorSelection = () => {
   return (
     <>
-      <div className="color_selection">
+      <div className="color_selection section-margin">
         <div className="color_selection-content">
           <h2 className="color_selection-title">
             Select Your Color Combination
           </h2>
           <p>
             Please select the colors below according
-            <br /> to your choice
+            <br />to your choice
           </p>
         </div>
         <div className="color_selection-icon">
@@ -35,10 +35,12 @@ const ColorSelection = () => {
           <img src={EllipseLogo_2} alt="" />
           <img src={EllipseLogo_3} alt="" />
         </div>
-        <Link to="/selection-page">
-          <Button text="Next" />
-        </Link>
-        <Footer />
+         <Link to="/selection-page">
+          <Button text="Next" className="btn-style selection-btn" />
+        </Link> 
+        <p className="reset">Reset</p>
+
+        <Footer className="footer footer-margin" />
         <br />
       </div>
     </>

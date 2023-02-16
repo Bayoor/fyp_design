@@ -1,14 +1,12 @@
 import React from "react";
 import "./footer.css";
 
-const Footer = () => {
+const Footer = (props) => {
   return (
     <>
-      <div className="footer">
-        <div className="footer-content">
-        <p><span>Privacy and Policy</span></p>
-        <p className="span"><span>FAQ</span></p>  
-        </div>
+      <div className={props.className}>
+        <p>Privacy and Policy</p>
+        <p>FAQ</p>
       </div>
     </>
   );

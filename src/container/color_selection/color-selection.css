@@ -1,15 +1,8 @@
 .color_selection {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: #fff;
-    border: 1px solid #fff;
+    width: 520px;
+    height: auto;
+    background: var(--background-color);
     border-radius: 8px;
-    width: 500px;
-    height: 650px;
-    margin: 6rem auto 4rem auto;
-    padding-top:4rem ;
 }
 
 .color_selection-content {
@@ -17,63 +10,173 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
 }
 
 .color_selection-title {
-    color: var(--color-heading);
     font-family: var(--font-family);
     font-weight: 700;
-    font-size: 24px;
+    font-size: 2.4rem;
     line-height: 24px;
     text-align: center;
+    color: var(--text-color);
+
+    margin-top: 3.2rem;
 }
 
-
-
-.color_selection-content > p {
-   
+.color_selection-content>p {
     font-family: var(--font-family);
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 24px;
     text-align: center;
-    color: #8E8E8E;
-    text-align: center;
-    margin-top: .5rem;
-    margin-bottom: 2rem;
+    color: var(--subtext-color);
+
 }
 
+.color_selection-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* outline: 2px solid brown; */
+    width: 330px;
+    margin-left: 95px;
 
+    margin-top: 1.6rem;
+    position: relative;
+}
 
-.color_selection-icon,
+.color_selection-icon>div {
+
+    width: 40%;
+    position: absolute;
+    transform: translateX(22px);
+    border: 1px solid var(--text-color);
+}
+
+.img {
+    margin-right: -5px;
+}
+
 .color_selection-img {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    /* border: 2px blue solid; */
-    width: 320px;
-    align-self: center;
+    max-width: 344px;
+    height: 80px;
+    margin-left: 90px;
+
+    margin-top: 6rem;
+
 }
 
-.color_selection-icon>div {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    border: 1px solid #0076A7;
-    width: 101px;
-    margin-left: -6.2rem;
+.reset {
+    color: var(--text-color);
+    transform: translateY(70px);
+    margin-top: 16px;
+    cursor: pointer;
 }
 
-.img {
-    margin-left: -6.2rem;
+.selection-btn {
+    transform: translateY(60px);
+    /* background: yellowgreen; */
 }
 
-.color_selection-img {
-    margin: 6rem 0;
-    width: 375px;
+@media screen and (max-width: 480px) {
+    .color_selection {
+        max-width: 340px;
+        height: auto;
+    }
+
+    .color_selection-title {
+        font-size: 1.6rem;
+        line-height: 20px;
+    }
+
+    .color_selection-content>p {
+        font-size: 1.2rem;
+        line-height: 20px;
+    }
+
+
+    .color_selection-icon {
+
+        /* outline: 2px solid brown; */
+        width: 170px;
+
+    }
+
+    .color_selection-icon>img {
+        width: 30px;
+        height: 30px;
+    }
+
+
+    .color_selection-img {
+        max-width: 180px;
+
+
+
+    }
+
+    .color_selection-img>img {
+        width: 40px;
+        height: 40px;
+    }
+
+
 }
 
+@media screen and (max-width: 320px) {
+    .color_selection {
+        max-width: 250px;
+        height: 500px;
+    }
 
+    .color_selection-icon {
 
+        /* outline: 2px solid brown; */
+        width: 140px;
+        margin-left: 50px;
+
+    }
+
+    .color_selection-img {
+        max-width: 160px;
+        /* outline: 2px solid brown; */
+        margin-left: 40px;
+    }
+
+    .color_selection-title {
+        font-size: 1.3rem;
+    }
+
+    .color_selection-content>p {
+        font-size: 1rem;
+    }
+
+    .footer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer>p {
+        font-size: 1rem;
+    }
+
+    .footer-margin {
+        transform: translateY(-50px);
+    }
+
+    .selection-btn {
+        transform: translateY(10px);
+    }
+
+    .reset {
+        transform: translateY(10px);
+    }
+}

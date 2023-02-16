@@ -1,87 +1,203 @@
 .verify {
+    width: 500px;
+    height: 500px;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.verify-content {
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
-    background: #fff;
-    border: 1px solid #fff;
-    width: 500px;
-    height: 480px;
-    margin: 6rem auto 4rem auto;
-    padding-top: 4rem;
+    position: relative;
+
 }
 
 .verify-title {
-    color: var(--color-heading);
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 24px;
     line-height: 24px;
     text-align: center;
+    color: var(--text-color);
+
+    margin-top: 40px;
 }
 
-.verify-content {
+.verify-para {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--subtext-color);
+
+    margin-top: 16px;
+}
+
+.verify-para>span {
+    color: #000;
+}
+
+.verify_arrow-icon>img {
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    /* outline: 1px red solid; */
+}
+
+.form {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
-}
-
-.arrow_icon1>img {
-    position: absolute;
-    left: -60px;
-    top: 3px;
-}
-
-.verify-content>p {
-    text-align: center;
-    margin-top: 2rem;
-}
-
-.verify-content>p>span {
-    color: #8E8E8E;
-}
-
-.form {
-    padding-top: 2rem;
 }
 
 .form>input {
-    border: 1px solid var(--color-heading);
+    width: 370px;
+    height: 50px;
+    border: 1px solid var(--subtext-color);
     border-radius: 8px;
-    margin-bottom: 1rem;
-    padding: 1.2rem 1rem;
-    width: 400px;
+    text-indent: 1rem;
+    margin-bottom: 1.2rem;
+
+    margin-top: 32px
 }
 
-.form>input::placeholder {
-
+input::placeholder {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    /* padding-left: 1rem; */
-    color: var(--color-heading)
+    color: var(--subtext-color);
 }
 
-
-.form>p {
+.para-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
     align-self: flex-end;
-    margin-bottom: 2rem;
-    margin-top: .2rem;
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #000000;
+    margin-right: 65px;
 
 }
 
-.form>p>span {
-    font-family: var(--font-family);
+.para-text>span {
     font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    color: var(--color-heading);
+    color: var(--text-color);
+}
+
+.btn {
+    pointer-events: none;
+    opacity: .65;
+    background: #CBE4EE;
+    color: rgb(58, 55, 55);
+}
+
+.verify-footer {
+    margin-top: 110px;
+}
+
+@media screen and (max-width: 480px){
+    .verify {
+        width: 340px;
+        height: auto;
+    }
+
+    .verify-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-weight: 500;
+        font-size: 1.6rem;
+        line-height: 20px;
+        
+    }
+
+    .verify-para {
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 18px;
+       
+    }
+
+    .form>input {
+        width: 250px;
+        height: 38px;  
+    }
+
+    .para-text {
+        font-size: 1rem;
+        margin-right: 50px;
+        cursor: pointer;
+    }
+
+    .para-text>span {
+        cursor: pointer;
+    }
+    
+    .verify-footer {
+        
+        padding-bottom: 16px;
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+    .verify{
+        width: 250px;
+        height: auto;
+    }
+
+    .verify-title {
+        font-weight: 500;
+        font-size: 1.2rem;
+        line-height: 20px;
+        
+    }
+
+    .verify-para {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        font-weight: 500;
+        font-size: 1.2rem;
+        line-height: 14px;
+        /* width: 100%; */
+       
+    }
+
+    .verify-para>span {
+        margin-bottom: -8px;
+        margin-top: 5px;
+    }
+
+    .form>input {
+        width: 200px;
+        height: 35px;  
+    }
+
+    .para-text {
+        font-size: 1rem;
+        margin-right: 50px;
+    }
+    .verify_arrow-icon>img {
+        width: 16px;
+        height: 16px;
+        /* outline: 2px brown solid; */
+    }
+    .verify-footer {
+        width: 230px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
 }

@@ -19,45 +19,45 @@ import "./selection-page.css";
 
 const SelectPage = () => {
   return (
-    <>
-      <div className="selection_page">
-        <div className="selection_page-content">
-          <h2 className="selection_page-title">Select Any Image Below</h2>
-          <p>
-            Please select any Image below to generate
-            <br /> a pattern from it
-          </p>
-        </div>
-        <div className="selection_page-icon">
-          <img src={progressBar_1} alt="" />
-          <div />
-          <img src={progressBar_2} alt="" />
-          <div />
-          <img src={progressBar_3} alt="" />
-        </div>
-
-        <div className="selection_page-img">
-          <div>
-            <img src={Rectangle_1694} alt="" />
-            <img src={Rectangle_1695} alt="" />
-            <img src={Rectangle_1696} alt="" />
-          </div>
-          <div>
-            <img src={Rectangle_1697} alt="" />
-            <img src={Rectangle_1698} alt="" />
-            <img src={Rectangle_1699} alt="" />
-          </div>
-          <div>
-            <img src={Rectangle_1700} alt="" />
-            <img src={Rectangle_1701} alt="" />
-            <img src={Rectangle_1702} alt="" />
-          </div>
-        </div>
-        <Button text="Next" />
-        <Footer />
-        <br />
+    <div className="selection_page section-margin">
+      <div className="selection_page-content">
+        <h2 className="selection_page-title">Select Any Image Below</h2>
+        <p>
+          Please select any Image below to generate
+          <br /> a pattern from it
+        </p>
       </div>
-    </>
+
+      <div className="selection_page-icon">
+        <img src={progressBar_1} alt="" />
+        <div />
+        <img src={progressBar_2} alt="" />
+        <div />
+        <img src={progressBar_3} alt="" />
+      </div>
+
+      <div className="flex-icon">
+        <div className="selection_page-img">
+          <img src={Rectangle_1694} alt="" />
+          <img src={Rectangle_1695} alt="" />
+          <img src={Rectangle_1696} alt="" />
+        </div>
+        <div className="selection_page-img">
+          <img src={Rectangle_1697} alt="" />
+          <img src={Rectangle_1698} alt="" />
+          <img src={Rectangle_1699} alt="" />
+        </div>
+        <div className="selection_page-img">
+          <img src={Rectangle_1700} alt="" />
+          <img src={Rectangle_1701} alt="" />
+          <img src={Rectangle_1702} alt="" />
+        </div>
+      </div>
+
+      <Button text="Next" className="btn-style" />
+      <Footer className="footer select_page-footer" />
+      <br />
+    </div>
   );
 };
 

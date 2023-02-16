@@ -1,108 +1,56 @@
 .header {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 500px;
-    height: 490px;
+    height: 500px;
     background: #FFFFFF;
     border-radius: 8px;
-    margin: 8rem auto 7rem auto;
-
 }
 
 .header-content {
     width: 100%;
-    flex: 1;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    padding: 12px 44px;
+    align-items: center;
 }
 
 .header-title {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 4rem 0;
-}
-
-.header-title h2 {
     font-family: var(--font-family);
     font-weight: 700;
-    font-size: 22px;
-    line-height: 22px;
+    font-size: 24px;
+    line-height: 24px;
+    color: var(--text-color);
     text-align: center;
-    color: #0076A7;
-    align-self: center;
-
+    margin-top: 3.2rem;
+    
 }
 
-.header-title p {
-    width: 348px;
+.header-para {
     font-family: var(--font-family);
     font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
     text-align: center;
-    color: #8E8E8E;
-}
-
-
-
-
-.header_footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 6rem;
-}
-
-.header_footer>span {
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-
-    text-align: center;
-
-    color: #626262;
-    margin: 0 -1rem;
+    color: var(--subtext-color);
+    margin-top: 1px;
 
 }
 
-@media screen and (max-width:420px) {
 
-    .header {
+
+@media screen and (max-width: 480px) {
+    .header{
         width: 350px;
-        height: 490px;
-
-
-
-
+        height: 350px;
+        /* overflow: hidden; */
     }
 
-    .header-title p {
-        width: 300px;
-        font-family: var(--font-family);
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 20px;
-        text-align: center;
-        color: #8E8E8E;
+    .header-title {
+        font-size: 1.6rem;
     }
 
-    .header-content {
-        display: flex;
-        flex-direction: column;
-        overflow: hidden;
-
-
-        /* background: #0076A7; */
+    .header-para {
+        font-size:1rem ;
+        line-height: 1.6rem;
     }
+
 }

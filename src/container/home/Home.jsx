@@ -7,22 +7,20 @@ import "./home.css";
 
 const Header = () => {
   return (
-    <div className="header">
+    <div className="header section-margin">
       <div className="header-content">
-        <div className="header-title">
-          <h2>Welcome to HomeTech</h2>
-          <p>
-            We protect your credentials from any form of
-            <br /> shoulder surfing attacks
-          </p>
-        </div>
+        <h2 className="header-title">Welcome to HomeTech</h2>
+        <p className="header-para">
+          We protect your credentials from any form of
+          <br /> shoulder surfing attacks
+        </p>
         <Link to="/register">
-          <Button text="Register" />
+          <Button text="Register" className="btn-style" />
         </Link>
         <Link to="/sign_in">
           <SecButton text="Sign In" />
         </Link>
-        <Footer />
+        <Footer className="footer" />
       </div>
     </div>
   );

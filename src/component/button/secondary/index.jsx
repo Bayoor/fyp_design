@@ -4,12 +4,12 @@ import "./style.css"
 
 const SecButton = (props) => {
   return (
-    <>
-         <button type="button" className="btn_sign_in"> 
+    <div className='sec-button'>
+         <button className="sign_in-btn"> 
           {props.text}
         </button> 
-    </>
+    </div>
   )
 }
 
-export default SecButton
+export default SecButton;
