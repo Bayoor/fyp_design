@@ -53,7 +53,7 @@ const SignIn = () => {
           <p>Forget Password?</p>
         </div>
 
-        <Link to="/selectColor">
+        <Link to="/sign_in/selectColor">
           <Button text="Next" className="btn-style" />
         </Link>
         <br />

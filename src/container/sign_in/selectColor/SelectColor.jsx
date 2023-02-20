@@ -35,7 +35,7 @@ const SelectColor = () => {
           <img src={EllipseLogo_2} alt="" />
           <img src={EllipseLogo_3} alt="" />
         </div>
-         <Link to="/selectImage">
+         <Link to="/sign_in/selectImage">
           <Button text="Next" className="btn-style selection-btn" />
         </Link> 
         <p className="reset">Reset</p>
