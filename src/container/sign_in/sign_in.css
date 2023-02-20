@@ -86,3 +86,34 @@
 .sign_in_form>input::placeholder {
     color: var(--subtext-color);
 }
+
+@media screen and (max-width: 480px) {
+    .sign_in-page {
+        width: 350px;
+        height: auto;
+       
+    }
+    
+    .title {
+        font-size: 1.6rem;
+        line-height: 20px;
+        
+    }
+
+    .sign_in-page>p {
+        font-size: 1.2rem;
+        line-height: 18px;
+    }
+
+    .sign_in-arrow-icon>img {
+         width: 18px;
+         height: 18px;
+    }
+
+    .image {
+        /* margin-left: 21%;
+        margin-top: 20px; */
+        margin-left: 8%;
+    }
+    
+}
