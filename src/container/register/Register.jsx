@@ -63,7 +63,7 @@ const Register = () => {
       <p className="reg-para">
         Fill in your details below to create an <br /> account with us
       </p>
-      <div className="reg-img">
+      <div className="image-icon">
         <img src={progressBar_1} alt="" />
         <img src={progressBar} alt="" />
         <img src={progressBar_3} alt="" />
@@ -76,7 +76,7 @@ const Register = () => {
           placeholder="Full Name"
           img={profile}
           alt="pofile"
-          className="profile-icon"
+          className="form-content"
         />
         <FormInput
           type="text"
@@ -85,7 +85,7 @@ const Register = () => {
           placeholder="Email address"
           img={emailLogo}
           alt="email"
-          className="email-icon"
+          className="form-content"
         />
         <FormInput
           type="password"
@@ -94,7 +94,7 @@ const Register = () => {
           placeholder="Password"
           img={eyeSlashLogo}
           alt="password"
-          className="password-icon"
+          className="form-content"
         />
 
         <Link to="/verify">

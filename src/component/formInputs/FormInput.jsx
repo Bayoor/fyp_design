@@ -4,13 +4,14 @@ import "./forminput.css";
 const FormInput = (props) => {
  
   return (
-    <div className="form-content">
+    <div className={props.className}>
       <label htmlFor="fullname"></label>
       <input 
       type={props.text}
       name={props.name}
       id={props.id}
       placeholder={props.placeholder}
+      
       />
       <div className="form-logo">
         <img src ={props.img} 

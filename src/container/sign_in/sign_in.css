@@ -1,0 +1,88 @@
+.sign_in-page {
+    width: 500px;
+    height: 650px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--background-color);
+    border-radius: 8px;
+}
+
+.sign-in-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--text-color);
+
+    /* transform: translateY(20px); */
+
+    margin-top: 40px;
+}
+
+.sign_in-page>p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--subtext-color);
+
+    margin-top: 7px;
+    /* margin-bottom: 28px */
+}
+
+.sign_in-arrow-icon {
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    /* outline: 1px red solid; */
+}
+
+
+.image {
+    margin-left: 21%;
+    margin-top: 20px;
+}
+
+.parah {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.parah>p {
+    margin-top: -80px;
+    margin-right: 65px;
+    /* outline: 2px solid brown; */
+}
+
+.sign_in-footer {
+    margin-top: 65px;
+}
+
+.sign_in-form {
+    margin-top: 100px;
+}
+
+.sign_in-para>p>span {
+    color: var(--text-color);
+    margin-left: 3px;
+}
+
+.sign_in-form>input::placeholder,
+.sign_in_form>input::placeholder {
+    color: var(--subtext-color);
+}

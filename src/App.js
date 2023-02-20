@@ -12,6 +12,8 @@ import ColorSelection from "./container/color_selection/ColorSelection";
 import SelectPage from "./container/selection_page/SelectPage";
 import Success from "./container/success/Success";
 import SignIn from "./container/sign_in/Sign in";
+import SelectColor from "./container/sign_in/selectColor/SelectColor";
+import SelectImage from "./container/sign_in/selectImage/SelectImage";
 
 const App = () => {
   return (
@@ -27,6 +29,8 @@ const App = () => {
         <Route exact path="/selection-page" element={<SelectPage />} />
         <Route exact path="/success" element={<Success />} />
         <Route exact path="/sign_in" element={<SignIn />} />
+        <Route exact path="/sign_in/selectColor" element={<SelectColor />} />
+        <Route exact path="/sign_in/selectImage" element={<SelectImage />} />
       </Routes>
     </Router>
   );

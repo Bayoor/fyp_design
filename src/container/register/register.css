@@ -51,7 +51,7 @@
 
 }
 
-.reg-img {
+.image-icon {
     width: 300px;
     height: 40px;
     /* outline: 1px solid red; */
@@ -65,7 +65,7 @@
 }
 
 
-.reg-img>img {
+.image-icon>img {
     margin-left: 4.4rem;
     margin-right: 4.4rem;
 }
@@ -131,7 +131,7 @@
 
     }
 
-    .reg-img>img {
+    .image-icon>img {
         width: 22px;
         height: 22px;
     }

@@ -76,7 +76,7 @@
 
 @media screen and (max-width: 480px) {
     .selection_page {
-        max-width: 380px;
+        max-width: 350px;
         height: 580px;
     }
 
@@ -91,7 +91,13 @@
     }
 
     .selection_page-img>img {
-        width: 100px;
+        width: 90px;
+        height: auto;
+    }
+
+    .flex-icon {
+       margin: 0 auto 0 auto;
+        width: 320px;
         height: auto;
     }
 
